@@ -7,11 +7,11 @@ const ProductTag = require('./ProductTag');
 // Product model & Category model
   // Products belongsTo Category
 Product.belongsTo(Category,{
-  foreignKey: 'reader_id',
+  foreignKey: 'category_id',
 });
   // Categories have many Products
 Category.hasMany(Product,{
-  foreignKey: 'reader_id',
+  foreignKey: 'category_id',
 });
 
 // Product model & ProductTag model
@@ -26,13 +26,13 @@ foreignKey: 'product_id',
 
 // ProductTag model & Tag model
   // ProductTag belongsTo Tag
-  ProductTag.belongsTo(Tag,{
-    foreignKey: 'tag_id',
-  });
-    // Tag have many ProductTag
-  Tag.hasMany(ProductTag,{
+ProductTag.belongsTo(Tag,{
   foreignKey: 'tag_id',
-  });
+});
+    // Tag have many ProductTag
+Tag.hasMany(ProductTag,{
+  foreignKey: 'tag_id',
+});
 
 
 module.exports = {
