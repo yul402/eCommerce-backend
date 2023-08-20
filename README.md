@@ -1,7 +1,7 @@
 # eCommerce-backend
 ![GitHub license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 
-Walk-through Video:
+Walk-through Video: https://watch.screencastify.com/v/x3xJLphKygJp6bzhcQmX
 
 ## Description
 
@@ -32,23 +32,15 @@ npm install
 
 
 ## Usage
-- When user opens the Note Taker, the landing page with a link to a notes page is presented.
-![Landing page](./Asset/landing-page.png)
+- User can GET all categories, Get one category, POST a category, PUT a category and DELETE a category in Category model.
 
-- When user clicks on the link to the notes page, note webpage is presented with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-![Note page](./Asset/note-page.png)
+![Category page](./Assets/category-page.png)
 
-- WHEN user enters a new note title and the note’s text, a Save icon appears in the navigation at the top of the page. 
-![Add note](./Asset/add-note.png)
+- User can GET all products, Get one product, POST a product, PUT a product and DELETE a product in Product model.
+![Product page](./Assets/product-page.png)
 
-- When user clicks on the Save icon,the new note entered is saved and appears in the left-hand column with the other existing notes.
-![Save note](./Asset/save-note.png)
-
-- WHEN user clicks on an existing note in the list in the left-hand column,that note appears in the right-hand column.
-![Check note](./Asset/check-note.png)
-
-- When user clicks on the delete icon next to note, that note is deleted and removed from list.
-![Delete note](./Asset/delete-note.png)
+- User can GET all tags, Get one tag, POST a tag, PUT a tag and DELETE a tag in Tag model.
+![Tag page](./Assets/tag-page.png)
 
 ## License
 
