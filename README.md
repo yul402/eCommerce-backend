@@ -11,6 +11,8 @@ In this project, the backend and core framework has been established for an e-co
 
 * [Installation](#Installation)
 
+* [Technology](#technology)
+
 * [Usage](#usage)
 
 * [License](#license)
@@ -30,6 +32,12 @@ To install dependencies, run these commands:
 npm install
 ```
 
+## Technology
+Technology used:
+- node.js
+- Express.js API
+- Sequelize 
+- MySQL database
 
 ## Usage
 - User can GET all categories, Get one category, POST a category, PUT a category and DELETE a category in Category model.
@@ -63,7 +71,7 @@ To make this project better, please fork the repo and create a pull request. You
 To run tests, run these commands:
 
 ```
-npm test
+npm run test
 ```
 
 ## Questions
