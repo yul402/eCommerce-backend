@@ -37,27 +37,6 @@ Tag.belongsToMany(Product, {
   as: 'joined_tag_product'
 });
 
-// Product model & ProductTag model
-  // ProductTag belongsTo Product
-// ProductTag.belongsTo(Product,{
-//   foreignKey: 'product_id',
-// });
-  // Product have many ProductTag
-// Product.hasMany(ProductTag,{
-// foreignKey: 'product_id',
-// });
-
-// ProductTag model & Tag model
-  // ProductTag belongsTo Tag
-// ProductTag.belongsTo(Tag,{
-//   foreignKey: 'tag_id',
-// });
-    // Tag have many ProductTag
-// Tag.hasMany(ProductTag,{
-//   foreignKey: 'tag_id',
-// });
-
-
 module.exports = {
   Product,
   Category,
